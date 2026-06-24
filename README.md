@@ -17,7 +17,12 @@ Two ElevenLabs voices play the caller and the support agent. The notebook genera
 
 ## What I noticed
 
-> **[ Fill this in after you run it. ]** Two or three honest, specific observations: how natural the turn-taking felt, where pronunciation or pacing was strong or weak across the three languages, anything that surprised you, and one concrete thing it changed about how you would position the product. This section is the most important part of the repo. Be specific, and be honest, including about any limitations.
+Across all three languages the conversation kept a natural pace, and the turn-taking in Spanish and German sounded like a real call rather than a robotic read, whereas English sounded slightly robotic to me personally. The voice quality surprised me most: Spanish sounded the most natural to me as the agent carried a calm, competent tone that a financial caller would want.
+ 
+One honest limitation: because I generated each line separately and joined them, the speakers run straight into each other with no pause, so the rhythm is a little tighter than a real call. In production I'd add natural gaps and let the agent's tone shift between hearing the problem and resolving it. Maybe because English is my native language, I noticed the tone of the voices in that audio seemed to change a little unnaturally to me personally, whereas Spanish and German felt more steady-toned.
+
+What it changed about how I'd position it: the multilingual quality is good enough that language coverage isn't a footnote, it's a wedge. For multinational and EU financial buyers I'd lead with "one agent, every language, same quality" instead of burying it as a feature. The proof a buyer actually needs is that the [German/Spanish] sounded as composed and trustworthy as the English.
+
 
 ## Run it yourself
 
