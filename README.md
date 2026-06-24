@@ -1,6 +1,6 @@
 # Multilingual Agent Call — ElevenLabs API Demo
 
-I built the "declined card / fraud hold" support call from my [ElevenAgents financial-services concept]([https://aliyasaiyed.github.io/elevenagents-finserv-concept/]) as real audio, using the ElevenLabs API, in three languages: **English, Spanish, and German**.
+I built the "declined card / fraud hold" support call from my [ElevenAgents financial-services concept]([https://github.com/aliyasaiyed/elevenagents-finserv-concept]) as real audio, using the ElevenLabs API, in three languages: **English, Spanish, and German**.
 
 ## Why
 
