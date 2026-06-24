@@ -9,7 +9,7 @@ The concept claims ElevenAgents can resolve financial support calls in any langu
 ## What's here
 
 - `elevenlabs_multilingual_call.ipynb` — the notebook that generates the calls. Runs in Google Colab, nothing to install.
-- `audio/` — the generated calls: English, Spanish, and German.
+- call_english.mp3, call_spanish.mp3, call_german.mp3 — the generated calls.
 
 ## How it works
 
@@ -21,8 +21,7 @@ Across all three languages the conversation kept a natural pace, and the turn-ta
  
 One honest limitation: because I generated each line separately and joined them, the speakers run straight into each other with no pause, so the rhythm is a little tighter than a real call. In production I'd add natural gaps and let the agent's tone shift between hearing the problem and resolving it. Maybe because English is my native language, I noticed the tone of the voices in that audio seemed to change a little unnaturally to me personally, whereas Spanish and German felt more steady-toned.
 
-What it changed about how I'd position it: the multilingual quality is good enough that language coverage isn't a footnote, it's a wedge. For multinational and EU financial buyers I'd lead with "one agent, every language, same quality" instead of burying it as a feature. The proof a buyer actually needs is that the [German/Spanish] sounded as composed and trustworthy as the English.
-
+What it changed about how I'd position it: the multilingual quality is strong enough that language coverage isn't a footnote, it's a wedge. The worry enterprise buyers have is that non-English voices degrade. I found the opposite: the Spanish and German held up as well as the English, and to my ear they were steadier. So for multinational and EU financial buyers, I'd lead with that proof directly, that the agent sounds as composed and trustworthy in every language, rather than burying language support as a feature.
 
 ## Run it yourself
 
